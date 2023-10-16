@@ -9,16 +9,32 @@ Panduan ini akan membantu Anda menginstal dan menjalankan server Minecraft Bedro
 # Masuk via SSH
 masuk ke server Anda melalui SSH. bisa menggunakan software putty lalu memasukkan IP Host name (IP address) yang terdapat pada ubuntu server
 # Membuat user baru
-``` adduser minecraft ```
-``` usermod -aG sudo minecraft ```
+```
+adduser minecraft
+```
+``` 
+usermod -aG sudo minecraft
+```
 # Masuk ke user yang sudah dibuat
-``` su - minecraft ```
+``` 
+su - minecraft
+```
 # Install Java, Screen, Wget, Unzip #
-``` sudo apt update -y ```
-``` sudo apt install openjdk-8-jdk -y ```
-``` sudo apt install screen -y ```
-``` sudo apt install wget -y ```
-``` sudo apt install unzip -y ```
+``` 
+sudo apt update -y
+```
+``` 
+sudo apt install openjdk-8-jdk -y
+```
+``` 
+sudo apt install screen -y
+```
+``` 
+sudo apt install wget -y
+```
+``` 
+sudo apt install unzip -y
+```
 # Buka port server #
 ``` sudo ufw enable ```
 ``` sudo ufw allow 22/tcp ```
