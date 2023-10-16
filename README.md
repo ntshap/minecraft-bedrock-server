@@ -8,6 +8,8 @@ Panduan ini akan membantu Anda menginstal dan menjalankan server Minecraft Bedro
 - Have a IP Public
 # Masuk via SSH
 masuk ke server Anda melalui SSH. bisa menggunakan software putty lalu memasukkan IP Host name (IP address) yang terdapat pada ubuntu server
-![F8ad4ulWwAAUXGi](https://github.com/ntshap/minecraft-bedrock-server/assets/145199476/351d5445-fc5f-46b5-ab77-fa8bf07870d2)
-
-#
+# Membuat user baru
+#adduser minecraft
+#usermod -aG sudo minecraft
+# Masuk ke user yang sudah dibuat
+#su - minecraft
