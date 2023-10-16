@@ -4,8 +4,8 @@ Panduan ini akan membantu Anda menginstal dan menjalankan server Minecraft Bedro
 - 1 CPU
 - 2 GB RAM
 - 20 GB Storage
-- Fast Internet Connection
-- Have a IP Public
+- Koneksi Internet yang cepat
+- IP Public
 # Masuk via SSH
 masuk ke server Anda melalui SSH. bisa menggunakan software putty lalu memasukkan IP Host name (IP address) yang terdapat pada ubuntu server
 # Membuat user baru
