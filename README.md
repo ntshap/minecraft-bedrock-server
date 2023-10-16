@@ -13,3 +13,26 @@ masuk ke server Anda melalui SSH. bisa menggunakan software putty lalu memasukka
 ``` usermod -aG sudo minecraft ```
 # Masuk ke user yang sudah dibuat
 ``` su - minecraft ```
+# Install Java, Screen, Wget, Unzip #
+``` sudo apt update -y ```
+``` sudo apt install openjdk-8-jdk -y ```
+``` sudo apt install screen -y ```
+``` sudo apt install wget -y ```
+``` sudo apt install unzip -y ```
+# Buka port server #
+``` sudo ufw enable ```
+``` sudo ufw allow 22/tcp ```
+``` sudo ufw allow 80/tcp ```
+``` sudo ufw allow 19132/tcp ```
+``` sudo ufw allow 19132 ```
+``` sudo ufw allow 25565/tcp ```
+# Install dan jalankan Minecraft Server #
+``` cd /home/minecraft ```
+``` wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.17.41.01.zip ```
+``` unzip bedrock-server-1.17.41.01.zip ```
+``` chmod +x ./bedrock_server ```
+``` sudo ./bedrock_server ```
+# Jika ingin menjalankan server di background, ketik perintah ini #
+``` sudo nohup ./bedrock_server & ```
+# Jika kamu ingin melihat prosesnya, kamu bisa ketik perintah ini #
+``` htop ```
