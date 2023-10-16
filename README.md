@@ -74,6 +74,8 @@ sudo ./bedrock_server
 ``` 
 sudo nohup ./bedrock_server &
 ```
+![Screenshot_2023-10-16-11-57-33-638_com mojang minecraftpe](https://github.com/ntshap/minecraft-bedrock-server/assets/145199476/208593dd-79cf-438e-8d94-996e940e47d8)
+
 # Jika kamu ingin melihat prosesnya, kamu bisa ketik perintah ini #
 ``` 
 htop
