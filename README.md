@@ -1,5 +1,5 @@
 # Minecraft Bedrock Server di Ubuntu Server 20.04
-Panduan ini akan membantu Anda menginstal dan menjalankan server Minecraft Bedrock Edition pada Ubuntu Server 20.04. Pastikan Anda telah mengakses server Anda melalui SSH sebelum memulai.
+Panduan ini akan membantu Anda menginstal dan menjalankan server Minecraft Bedrock Edition pada Ubuntu Server 20.04. 
 # minimum spesifikasi server yang di perlukan
 - 1 CPU
 - 2 GB RAM
